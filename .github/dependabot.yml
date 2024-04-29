@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"  # Specify the package manager (e.g., npm, yarn)
+    directory: "/"            # Location of your package manifests (e.g., package.json)
     schedule:
-      interval: "weekly" 
+      interval: "daily"       # How often to check for updates
